@@ -12,13 +12,12 @@ nav{
     display: flex;
     align-items: center;
     gap: 20px;
-    
-
+    border-bottom: #000000 solid 3px;
+    margin-bottom: 30px;
 }
 
 .logo{
-    
-    height: 70px;
+    padding-left: 9%;
     display: flex;
     align-items: center;
 
@@ -26,6 +25,8 @@ nav{
 
 .logo-image{
     height: 70px;
+    width: 70px;
+    border-radius: 50%;
 }
 
 .title-container{
@@ -41,6 +42,40 @@ nav{
 }
     
 /*Body*/
+
+.accordion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    
+}
+
+.accordion-item{
+    border:none !important;
+    width: 80%;
+}
+
+.accordion-header{
+    display: flex;
+    gap: 20px;
+}
+
+.accordion-button{
+    width:50% !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: white !important;
+    color: #000000 !important;
+    padding:5px 5px !important;
+    font-size: small !important;
+    font-style: italic!important;
+}
+
+.accordion-button::after{
+    margin-left: 5px !important;
+}
 .jobs-section{
     display: flex;
     justify-content: center;
@@ -60,7 +95,7 @@ nav{
     border: 1px solid lightgray ;
     margin-bottom: 10px;
     width:70%;
-    height: 300px;
+    height: 320px;
     border-radius: 10px;
     padding-left: 15px;
 
@@ -75,41 +110,49 @@ nav{
 .company{
     font-size: 15px;
     color:#6f6f6f;
+    margin-bottom: 0 !important;
 }
 
 .location{
     font-size: 15px;
     color:#6f6f6f;
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
 }
 
 .job-type{
-    background-color: lightgreen;
+    background-color: rgb(204, 252, 204);
     height: 30px;
-    
     width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    color: blueviolet;
-    margin-bottom: 20px;
+    color: green;
+    margin-bottom: 0px !important;
+    font-weight: 400;
+    font-size: .8rem;
 }
 
 .point-container{
-    padding-left: 20px;
+    
+    margin-bottom: 15px;
 }
+
+
 
 .point-container li{
     font-size: .875rem;
     line-height: 1.25rem;
     color: #6f6f6f;
     list-style-type:circle;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .expire{
     color: #6f6f6f;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: .875rem;
 }
 
 .description-container{
