@@ -55,6 +55,8 @@ nav{
 .accordion-item{
     border:none !important;
     width: 80%;
+    border-bottom: #6f6f6f 1px solid !important;
+    padding-bottom: 20px !important;
 }
 
 .accordion-header{
