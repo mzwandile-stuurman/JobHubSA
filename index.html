@@ -3,180 +3,431 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="/css/home.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <title>JobHubSA</title>
+    <!-- 3fVU7KN$ak3Ve7 -->
+    <link rel="shortcut icon" type="image/x-icon" href="/images/images.jpeg" >
+    <title>YouthHubSA</title>
 </head>
 <body>
 
     <main>
-        <nav>
-            <div class="logo">
-                <img src="./images/images.jpeg" alt="logo" class="logo-image">
-            </div>
-            <div class="title-container">
-                <h1 class="title">
-                    JobHubSA
-                </h1>
-            </div>
+        <header>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="./images/images.jpeg" alt="logo" class="logo-image">
+                     <div class="title-container">
+                        <h1 class="title">
+                            YouthHubSA
+                        </h1>
+                    </div>
+                </div>
+               
+                <div class="search-container">
+                    <input type="text" name="job-search" id="job-search" placeholder="search..." >
+                </div>
+
+                <div class="date">
+                    <p id="today">
+
+                    </p>
+                </div>
             
+            </div>
+           
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Jobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./university.html">University Applications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nsfas.html">NAFAS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sassa.html">SASSA</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./learnership.html">Learnerships/Internships</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Grade 12</a>
+                        </li>
+
+                    </ul>
+                
+                </div>
+            </div>
         </nav>
 
 
         <div class="accordion accordion-flush" id="accordionExample">
-            
-            <div class="accordion-item">
+            <div class="container">
 
-                <h4 class="job-heading">
-                    Electrical Technician
-                </h4>
-                <p class="company">
-                    Avacare Health Group
-                </p>
-                <p class="location">
-                    Cape Town, Western Cape 7441
-                </p>
-            
-                <div class="accordion-header" id="headingOne">
-                    <p class="job-type">
-                        Permanent
-                    </p>
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Read More
-                    </button>
-                </div>
-                <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                    
-                        <p><span style="font-weight: bold;"><span>Barrs Pharmaceuticals Industries (Pty) Ltd - A part of Avacare Health Group</span></span></p>
-                    
-                        <p><span style="font-weight: bold;"><span>Location:</span></span><span> Ndabeni, Cape Town, South Africa</span></p>
-                        
-                        <p><span style="font-weight: bold;"><span>Position Type:</span></span><span> Full-time</span></p>
-                        
-                        <p><span style="font-weight: bold;"><span>Duration:</span></span><span> Permanent Contract of Employment</span></p>
-                        
-                        <p><span style="font-weight: bold;"><span>Closing date for Application:</span></span><span> 31 March 2024</span></p>
-                        
-                        <a href="https://avacarehg.bamboohr.com/careers/272" target="_blank" >APPLY HERE</a>
-                        <p><span style="font-weight: bold;"><span>Overview:</span></span></p>
-                        <p><span>Barrs Pharmaceuticals Industries is actively seeking a skilled and experienced Electrical Technician/Electrician with expertise in control and instrumentation to contribute to the efficient operation of our pharmaceutical manufacturing facility. As a crucial member of our operations department, the Electrical Technician will play a pivotal role in ensuring the reliability and functionality of electrical systems and instrumentation, upholding the highest standards of quality, compliance, and safety.</span></p>
-                        
-                        <p><span style="font-weight: bold;"><span>About Avacare Health Group:</span></span></p>
-                        <p><span>The Avacare Health Group is a leading integrated healthcare group dedicated to providing affordable healthcare solutions across Africa and beyond. Established in 1996 by Dr. Vikramkumar Naik, our commitment is to make a positive impact on the lives of people through the distribution of pharmaceuticals, medical consumables, consumer health products, and medical equipment.</span></p>
-                        
-                        <p><span style="font-weight: bold;"><span>Key Responsibilities:</span></span></p>
-                        <ul>
-                            <li><span> </span><span>Perform routine maintenance, troubleshooting, and repairs of electrical systems and instrumentation in compliance with Good Manufacturing Practices (GMP).</span></li>
-                            <li><span> </span><span>Install, maintain, and troubleshoot electrical components, including motors, controllers, and instrumentation devices.</span></li>
-                            <li><span> </span><span>Work as part of the maintenance and production teams to ensure optimal performance of electrical and instrumentation systems.</span></li>
-                            <li><span> </span><span>Execute preventive maintenance tasks to enhance system reliability and longevity.</span></li>
-                            <li><span> </span><span>Assist in the implementation of upgrades and modifications to improve electrical and instrumentation efficiency.</span></li>
-                            <li><span> </span><span>Work in the Facilities and Maintenance department to address electrical and instrumentation issues promptly.</span></li>
-                            <li><span> </span><span>Follow standard operating procedures (SOPs) and adhere to safety protocols to maintain a secure working environment.</span></li>
-                            <li><span> </span><span>Participate in cross-functional teams to optimize production efficiency and quality.</span></li>
-                        </ul>
-                        
-                        <p><span style="font-weight: bold;"><span>Desired Experience, Qualifications, and Attributes:</span></span></p>
-                        <ul>
-                            <li><span> </span><span>Diploma or certification in Electrical Engineering or a related field.</span></li>
-                            <li><span> </span><span>Minimum of 3 years of hands-on experience as an Electrical Technician/Electrician in pharmaceutical manufacturing, FMCG or a similar regulated industry.</span></li>
-                            <li><span> </span><span>Strong knowledge of control systems, instrumentation, and PLCs.</span></li>
-                            <li><span> </span><span>Familiarity with pharmaceutical manufacturing processes and equipment.</span></li>
-                            <li><span> </span><span>Knowledge of Good Manufacturing Practices (GMP) and regulatory compliance.</span></li>
-                            <li><span> </span><span>Experience with preventive maintenance and troubleshooting of electrical and instrumentation systems.</span></li>
-                            <li><span> </span><span>Strong attention to detail and problem-solving skills.</span></li>
-                            <li><span> </span><span>Ability to work collaboratively in a fast-paced environment.</span></li>
-                            <li><span> </span><span>Excellent communication and interpersonal skills.</span></li>
-                            <li><span> </span><span>Ability to work shifts as and when required.</span></li>
-                        </ul>
-                        
-                        <p><span>If you are a results-oriented individual with a strong control and instrumentation background and expertise in electrical works, we invite you to apply for the position of Electrical Technician at Barrs Pharmaceuticals. Please submit your resume and cover letter outlining your qualifications and relevant experience to <a rel="noopener noreferrer" href="mailto:hrsupport@barrs.co.za">hrsupport@barrs.co.za</a>. We look forward to hearing from you!&nbsp; If you have not heard from us within 2 weeks of the closing date, please consider your application unsuccessful.</span></p>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h4 class="job-heading">
-                    Maintanance technician
-                </h4>
-                <p class="company">
-                    Kone
-                </p>
-                <p class="location">
-                    Cape Town, Western Cape
-                </p>
+                <div class="row" >
+                    <div class="accordion-item">
+                        <h4 class="job-heading">
+                            Circular Government Jobs
+                        </h4>
+                        <p class="company">
+                            SA Government
+                        </p>
+                        <p class="location">
+                            South Africa
+                        </p>
+                        <div class="accordion-header" id="headingSix">
+                            <p class="job-type">
+                                Depends
+                            </p>
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Read More
+                            </button>
+                        </div>
+                      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
 
-                <div class="accordion-header" id="headingTwo">
-                    <p class="job-type">
-                        Permanent
-                    </p>
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Read More
-                    </button>
-                </div>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <div data-automation-id="jobPostingDescription" class="css-d9wigi">
-                        <p>
-                            KONE is looking for a qualified Maintenance Technician in <b>Cape Town</b><b><b>, </b>South Africa<span>.</span></b> Our team is composed of maintenance professionals who provide on-site customer service to ensure the smooth and safe operation of our equipment. We are now looking for a service-minded Maintenance Technician to provide professional elevator and escalator maintenance service to our customers.
-                        </p>
-                        <p> <a href="https://kone.wd3.myworkdayjobs.com/en-US/Careers/details/Maintenance-Technician_R0637113?Country=4db3c26940b944919b83612cc1193eed" target="_blank" rel="noopener noreferrer">APPLY HERE</a></p>
-                        <p>In this role, you will be at the core of KONE - an everyday hero who makes people's lives easier. You will work towards ensuring quality service, improving equipment safety and performance as well as promoting regular and proactive on-site communication to customers and the people using the equipment.<br>&nbsp;</p>
-                        <p>
-                            <b><span><span><span><span style="word-break: break-word; word-wrap: break-word; display: inline; text-decoration: inherit; hyphens: auto; -webkit-hyphens:auto; -ms-hyphens: auto; -moz-hyphens: auto;">Responsibilities:&nbsp;</span></span></span></span></b>
-                        </p>
-                        <ul>
-                            <li>Responsible for customer satisfaction through quality of service and regular, proactive, and precise on-site communication;</li><li>Responsible for accurate and real-time back reporting of work performed;</li><li>Maintain excellent relationships with the customers, the contact person, and end-users on site;</li><li>Manage the site environment during service operations;</li><li>Identification of site risks, and timely communication of any such occurrences;</li><li><span>Identifying “unplanned” service repairs based on the equipment needs, contacting the on-site contact person, getting his approval if not covered by the contract, and performing them;</span></li><li><span>Management of PAR stock levels (shelving, inventory, stock transfer) and timely issuance of replenishment orders;</span></li><li>Submit timesheets based on the execution.</li>
-                        </ul>
-                        <p></p>
-                        <p><b><span>Skills &amp; Experience:</span></b></p><ul><li><span>One or more of the following qualifications:</span></li><li><span>Red seal trade test certificate lift mechanic;</span></li><li><span>Completed NQF level 4 certification with apprenticeship program (minimum 4 years);</span></li><li><span>Completed <span><span><span style="word-break: break-word; word-wrap: break-word; display: inline; text-decoration: inherit; hyphens: auto; -webkit-hyphens:auto; -ms-hyphens: auto; -moz-hyphens: auto;">Electrical/Mechanical</span></span></span> Engineer Diploma/Degree with completion of at least 12 months shadowing a competent lift mechanic;</span></li><li><span>Completed NQF level 5 certification with completion of at least 12 months shadowing a competent lift mechanic;</span></li><li>Good communication skills with basic IT skills.</li></ul><p></p><p><b>Selected candidates will be sent an automated assessment via email, please make sure you check your spam folder when keeping a look out for this assessment.</b></p><p style="text-align:inherit"></p><p style="text-align:left"><i>At KONE, we are focused on creating an innovative and collaborative working culture where we value the contribution of each individual. Employee engagement is a key focus area for us and we encourage participation and the sharing of information and ideas. Sustainability is an integral part of our culture and the daily practice. We follow ethical business practices and we seek to develop a culture of working together where co-workers trust and respect each other and good performance is recognized. In being a great place to work, we are proud to offer a range of experiences and opportunities that will help you to achieve your career and personal goals and enable you to live a healthy and balanced life.</i></p><p style="text-align:inherit"></p><p style="text-align:left"><span>Read more on <a rel="noreferrer" target="_blank" href="https://emea01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.kone.com%2Fcareers&amp;data=02%7C01%7C%7C196fba7696d14cb6e18c08d5fed3bd46%7C2bb82c642eb143f78862fdc1d2333b50%7C0%7C0%7C636695107710197112&amp;sdata=mHjxju%2F%2F0Yjd1a9Qo2DoRF7lJdKQrHqujJmglVjPX9w%3D&amp;reserved=0"><i><i><i>www.kone.com/careers</i></i></i></a></span></p>
+                            <h5>
+                                South African Government Jobs
+                            </h5>
+                            
+                            <h6>
+                                Government is looking for graudates al over South Africa
+                            </h6>
+                            <p>Click <a href="https://www.graduates24.com/learnerships" target="_blank" rel="noopener noreferrer">here</a> to apply</p>
+                        </div>
+                      </div>
                     </div>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-                <h4 class="job-heading">
-                    House Keeper
-                </h4>
-                <p class="company">
-                    Faircape
-                </p>
-                <p class="location">
-                    Somerset West, Western Cape
-                </p>
-                <div class="accordion-header" id="headingThree">
-                    <p class="job-type">
-                        Permanent
-                    </p>
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Read More
-                    </button>
-                </div>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <div class="vacancy-description">
-                        <p><strong>The Faircape Group</strong>&nbsp;operates 6 high end retirement/lifestyle villages in the Western Cape.</p>
-                        <p>We are seeking a&nbsp;<strong>Housekeeper</strong>&nbsp;at our facility <strong>Heritage Manor&nbsp;</strong>in the<strong> Somerset West&nbsp;</strong>to carry out various cleaning duties and to ensure our facility is in an orderly condition.&nbsp;<br><br><em><strong>(Preferably candidates from the surrounding areas - Strand, Somerset West, Gordons Bay, Grabouw etc will be considered)</strong></em><br><br><strong>Job duties include, but is not limited to the following:</strong></p>
-                        <a href="https://faircapelife.simplify.hr/Vacancy/86742" target="_blank" rel="noopener noreferrer">APPLY HERE</a>
-                        <ul>
-                            <li>Ensure that a high standard of cleanliness is maintained throughout all areas of the facility</li><li>Clean designated facility areas (dusting, sweeping, vacuuming, mopping, cleaning ceiling vents, restroom cleaning etc)</li><li>Perform and document routine inspection activities</li><li>Carry out heavy cleansing tasks and special projects upon request</li><li>Ensure all walkways remain clear and free of debris</li><li>Notify management of any repairs required</li><li>Mix and dispose of all cleaning solutions appropriately</li><li>Follow all health and safety regulations</li>
-                        </ul>
-                        <p><strong>Experience and knowledge:</strong></p>
-                        <ul>
-                            <li>3 years cleaning experience preferable</li><li>Excellent working knowledge of cleaning appliances and their operations</li><li>Knowledge regarding the proper use of cleaning/chemical agents</li><li>Attention to detail and good communication skills</li><li>We will require a written reference in order to proceed with your application</li>
-                        </ul>
-                        <p><strong>Specific Requirements</strong></p>
-                        <ul>
-                            <li style="font-weight: 400"><span style="font-weight: 400">No criminal record</span></li><li style="font-weight: 400"><span style="font-weight: 400">Solid and positive references</span></li><li style="font-weight: 400"><span style="font-weight: 400">Clear health record</span></li><li style="font-weight: 400"><span style="font-weight: 400">Clear credit record</span></li><li style="font-weight: 400"><span style="font-weight: 400">Vaccinated against covid-19 or prepared to be vaccinated prior to commencing job</span></li>
-                        </ul>
-                        <p><br>Salary on offer from R5 000 Cost to Company per month.&nbsp;</p>
-                        <br><strong>Working Hours: </strong><span style="font-weight: 400">Normal working days are Mondays to Sundays, according to the roster. You will be required to work 16.25 shifts per month. Shifts are from 07h00 until 19h00.</span><br><br>
-                        <p><em>Should you not receive a response within 2 weeks of applying, please consider your application unsuccessful.</em></p>
+                    <div class="accordion-item">
+                        <h4 class="job-heading">
+                            Santam Graduate Programme
+                        </h4>
+                        <p class="company">
+                            Santam
+                        </p>
+                        <p class="location">
+                            Johannesburg, Gauteng
+                        </p>
+                        <div class="accordion-header" id="headingFour">
+                            <p class="job-type">
+                                Contract
+                            </p>
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Read More
+                            </button>
+                        </div>
+                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h4>
+                                Santam Graduate Programme
+                
+                            </h4>
+                            <p xml:lang="en-GB" lang="en-GB" class="jobDate" id="job-date"><strong>Date: </strong>15 Apr 2024
+                            </p>
+                            <p id="job-location" xml:lang="en-GB" lang="en-GB" class="jobLocation ">
+                                <strong>Location:</strong>
+            
+                                <span class="jobGeoLocation">Johannesburg, Gauteng, South Africa
+                                </span>
+                            </p>
+                            <p id="job-company" class="jobCompany" xml:lang="en-GB" lang="en-GB">
+                                <strong>Company: </strong>
+                                <span>Sanlam Group</span>
+                            </p>
+                            <a href="https://careers.sanlamcloud.co.za/Santam/job/Johannesburg-Santam-Graduate-Programme-Gaut/1060361701/" target="_blank" rel="noopener noreferrer">APPLY HERE</a>
+                            <div class="job" style="overflow-y: scroll !important;">
+                                <span itemprop="description" class="jobdescription"><div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><h2 style="font-size:1.0em;margin:0.0px"><b>Kick start your career with us</b></h2>
+                        </div><div><p>Are you a graduate who has the ambition and drive to shape their own world? If that is you, the Santam Graduate Programme will provide you with an exciting opportunity to kick-start and accelerate your career path. True to Santam’s commitment to develop and inspire fresh talent, you can expect plenty of support and guidance as you develop your skills in your chosen field.<br>
+                        The Santam Graduate Programme will provide you with access to a 24-month programme in order to make a successful transition from university to the world of work. You will be exposed to formal development as well as on- the-job training.</p>
+                        </div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><h2 style="font-size:1.0em;margin:0.0px"><b> Exceptional Young Talent Making A Difference</b></h2>
+                        </div><div><p>We aim to foster an environment that encourages inclusivity, and empowerment by creating a culture where everyone is valued, accepted and makes a meaningful difference.<br>
+                        We welcome fresh thinking and new perspectives. We invite you to come as you are.</p>
+                        
+                        <p>We are committed to nurturing, supporting and providing opportunities for you to achieve your maximum potential. We aspire to create an environment where you can unlock your passion, craft a future for yourself to develop and thrive.</p>
+                        
+                        <p>We acknowledge and recognise that our success is at the heart of your success.<br>
+                        &nbsp;<br>
+                        We aim to provide care and understanding various facets of your life and your holistic well-being. Your efforts and input will be acknowledged and recognised and we constantly communicate how much we value the contributions of our people.</p>
+                        
+                        <p>We are a socially conscious organisation that strives to positively impact communities and society. Join us and experience opportunities that will enable you to live purposefully<br>
+                        by participating in our extensive &nbsp;CSI initiatives.</p>
+                        
+                        <p>JOIN US AND COME AS YOU ARE,<br>
+                        UNLOCK YOUR PASSION, LIVE PURPOSEFULLY AND FEEL RECOGNISED</p>
+                        </div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><h2 style="font-size:1.0em;margin:0.0px"><b>Programme Information</b></h2>
+                        </div><div><p>Our graduate programme is designed to contribute to your development primarily as follows:<br>
+                        Through our customised onboarding programme, we will settle you into Santam within the first 100 days and set you up for success. You will be immersed in a series of accredited learning assets covering areas meant to anchor you in your journey of 24 months, while we expose you to the latest curated on-line content addressing our DNA embedded in five Santam core competencies.</p>
+                        
+                        <p><br>
+                        <b>Santam core competencies:</b><br>
+                        -&nbsp;&nbsp; &nbsp;Collaborate<br>
+                        -&nbsp;&nbsp; &nbsp;Cultivate innovation<br>
+                        -&nbsp;&nbsp; &nbsp;Client focus<br>
+                        -&nbsp;&nbsp; &nbsp;Drive results<br>
+                        -&nbsp;&nbsp; &nbsp;Resilience</p>
+                        
+                        <p>If we are to be found ready for future challenges, we want to focus and be deliberate about building these competencies in our people and coupled with that is to prioritise development in leadership capabilities as well.</p>
+                        
+                        <p><br>
+                        <b>FutureFit competencies:</b><br>
+                        -&nbsp;&nbsp; &nbsp;Creativity and problem-solving<br>
+                        -&nbsp;&nbsp; &nbsp;Analytical thinking<br>
+                        -&nbsp;&nbsp; &nbsp;Resilience<br>
+                        -&nbsp;&nbsp; &nbsp;Dealing with ambiguity and complexity<br>
+                        -&nbsp;&nbsp; &nbsp;Digitally savvy</p>
+                        
+                        <p><br>
+                        You will be given access to areas of specialisation, as we continue to build your leadership attributes that we want to see in the future.<br>
+                        Electives – Exposure to technical areas of specialisation in short-term insurance as required by your future role.<br>
+                        All along being supported through subject matter experts and one-on-one coaching as you endeavor to cement your development through business informed learning projects.</p>
+                        
+                        <p><br>
+                        <b>Duration:&nbsp;&nbsp; &nbsp;24 months (2 years)<br>
+                        Start date:&nbsp;&nbsp; &nbsp;1 September 2024</b></p>
+                        </div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><h2 style="font-size:1.0em;margin:0.0px"><b>Who Can Apply?</b></h2>
+                        </div><div><p>Applicants must not have more than 1 years’ work experience and must be in possession of a degree in the following fields:<br>
+                        1.&nbsp;&nbsp; &nbsp;Insurance/Risk Management/Law<br>
+                        2.&nbsp;&nbsp; &nbsp;Actuarial Science/Mathematics/Data Science<br>
+                        3.&nbsp;&nbsp; &nbsp;Computer Science/Management Information<br>
+                        4.&nbsp;&nbsp; &nbsp;Commerce/Finance/Accounting/Auditing<br>
+                        5.&nbsp;&nbsp; &nbsp;Industrial / Civil / Mechanical Engineering<br>
+                        6.&nbsp;&nbsp; &nbsp;Knowledge Management/Human Resources/Internal Audit/Reporting<br>
+                        7.&nbsp;&nbsp; &nbsp;IT/IT Audit/Data Analytics or Management/Informatics</p>
+                        
+                        <p>Applicants with post-graduate qualifications (Honours) are welcome to apply.</p>
+                        </div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><h2 style="font-size:1.0em;margin:0.0px"><b>Who We Are?</b></h2>
+                        </div><div><p>Santam is the market leader in the general insurance industry in Southern Africa. We are a large, diversified, expanding and transforming company and whilst based in South Africa,<br>
+                        we are rapidly moving into several emerging markets, both in Africa and Asia. Our success is rooted in our passion for our clients and everything we do is centered on delivery of our Insurance Good and Proper. &nbsp;We’re about<br>
+                        people. People drive our business, so it follows that we want to recruit the best people possible whether they work for us permanently or for a short time as temporary employees.<br>
+                        At Santam we are committed to transformation and embracing diversity. This commitment is what drives us to achieve a diverse workplace with employment equity as a key goal to create an inclusive workforce, representative of the demographics of our society. With the focus of achieving our employment equity goals we give preference to applicants from the designated groups.</p>
+                        </div></div><div style="padding:10.0px 0.0px;border:1.0px solid transparent"><div style="font-size:16.0px;word-wrap:break-word"><h2 style="font-size:1.0em;margin:0.0px">Applications are open. Closing Date: 26 April 2024                    </h2>
+                        </div><div><p>Apply on the Santam careers page at www.santam.co.za</p>
+                        </div></div></div>
+                                </span>         
+                                    <p class="job-location">
+                                        <span class="jobmarkets">
+                                        </span>
+                                    </p>
+                                                    </div>
+                            
+                        </div>
+                      </div>
                     </div>
+                    <div class="accordion-item">
+                        <h4 class="job-heading">
+                            Driver General Worker
+                        </h4>
+                        <p class="company">
+                            Dangerous Goods International
+                        </p>
+                        <p class="location">
+                            Cape Town, Western Cape
+                        </p>
+                        <div class="accordion-header" id="headingFour">
+                            <p class="job-type">
+                                Permanent
+                            </p>
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Read More
+                            </button>
+                        </div>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div id="jobDescriptionText" class="jobsearch-jobDescriptionText jobsearch-JobComponent-description css-kqe8pq eu4oa1w0"><p style="font-size: larger;">Driver and General Worker,</p>
+                                <p>Assist operations with collections and deliveries and to do genaral work in the warehouse and office,</p>
+                                <p>Must have vaild Code 8 Drivers License with Dangerous Goods PDP.</p>
+                                <p>Job Type: Permanent</p>
+                                <p>Pay: From R8&nbsp;500,00 per month</p>
+                                <a href="https://indeed.com" target="_blank">APPLY HERE</a>
+                                <p>Education:</p>
+                                <ul>
+                                 <li>High School (matric) (Preferred)</li>
+                                </ul>
+                                <p>License/Certification:</p>
+                                <ul>
+                                 <li>Code 8 Drivers License (Required)</li>
+                                 <li>Dangerous Goods PDP (Preferred)</li>
+                                </ul>
+                                <p>Application Deadline: 2024/04/25</p></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+
+                        <h4 class="job-heading">
+                            Electrical Technician
+                        </h4>
+                        <p class="company">
+                            Avacare Health Group
+                        </p>
+                        <p class="location">
+                            Cape Town, Western Cape 7441
+                        </p>
+                    
+                        <div class="accordion-header" id="headingOne">
+                            <p class="job-type">
+                                Permanent
+                            </p>
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Read More
+                            </button>
+                        </div>
+                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            
+                                <p><span style="font-weight: bold;"><span>Barrs Pharmaceuticals Industries (Pty) Ltd - A part of Avacare Health Group</span></span></p>
+                            
+                                <p><span style="font-weight: bold;"><span>Location:</span></span><span> Ndabeni, Cape Town, South Africa</span></p>
+                                
+                                <p><span style="font-weight: bold;"><span>Position Type:</span></span><span> Full-time</span></p>
+                                
+                                <p><span style="font-weight: bold;"><span>Duration:</span></span><span> Permanent Contract of Employment</span></p>
+                                
+                                <p><span style="font-weight: bold;"><span>Closing date for Application:</span></span><span> 31 March 2024</span></p>
+                                
+                                <a href="https://avacarehg.bamboohr.com/careers/272" target="_blank" >APPLY HERE</a>
+                                <p><span style="font-weight: bold;"><span>Overview:</span></span></p>
+                                <p><span>Barrs Pharmaceuticals Industries is actively seeking a skilled and experienced Electrical Technician/Electrician with expertise in control and instrumentation to contribute to the efficient operation of our pharmaceutical manufacturing facility. As a crucial member of our operations department, the Electrical Technician will play a pivotal role in ensuring the reliability and functionality of electrical systems and instrumentation, upholding the highest standards of quality, compliance, and safety.</span></p>
+                                
+                                <p><span style="font-weight: bold;"><span>About Avacare Health Group:</span></span></p>
+                                <p><span>The Avacare Health Group is a leading integrated healthcare group dedicated to providing affordable healthcare solutions across Africa and beyond. Established in 1996 by Dr. Vikramkumar Naik, our commitment is to make a positive impact on the lives of people through the distribution of pharmaceuticals, medical consumables, consumer health products, and medical equipment.</span></p>
+                                
+                                <p><span style="font-weight: bold;"><span>Key Responsibilities:</span></span></p>
+                                <ul>
+                                    <li><span> </span><span>Perform routine maintenance, troubleshooting, and repairs of electrical systems and instrumentation in compliance with Good Manufacturing Practices (GMP).</span></li>
+                                    <li><span> </span><span>Install, maintain, and troubleshoot electrical components, including motors, controllers, and instrumentation devices.</span></li>
+                                    <li><span> </span><span>Work as part of the maintenance and production teams to ensure optimal performance of electrical and instrumentation systems.</span></li>
+                                    <li><span> </span><span>Execute preventive maintenance tasks to enhance system reliability and longevity.</span></li>
+                                    <li><span> </span><span>Assist in the implementation of upgrades and modifications to improve electrical and instrumentation efficiency.</span></li>
+                                    <li><span> </span><span>Work in the Facilities and Maintenance department to address electrical and instrumentation issues promptly.</span></li>
+                                    <li><span> </span><span>Follow standard operating procedures (SOPs) and adhere to safety protocols to maintain a secure working environment.</span></li>
+                                    <li><span> </span><span>Participate in cross-functional teams to optimize production efficiency and quality.</span></li>
+                                </ul>
+                                
+                                <p><span style="font-weight: bold;"><span>Desired Experience, Qualifications, and Attributes:</span></span></p>
+                                <ul>
+                                    <li><span> </span><span>Diploma or certification in Electrical Engineering or a related field.</span></li>
+                                    <li><span> </span><span>Minimum of 3 years of hands-on experience as an Electrical Technician/Electrician in pharmaceutical manufacturing, FMCG or a similar regulated industry.</span></li>
+                                    <li><span> </span><span>Strong knowledge of control systems, instrumentation, and PLCs.</span></li>
+                                    <li><span> </span><span>Familiarity with pharmaceutical manufacturing processes and equipment.</span></li>
+                                    <li><span> </span><span>Knowledge of Good Manufacturing Practices (GMP) and regulatory compliance.</span></li>
+                                    <li><span> </span><span>Experience with preventive maintenance and troubleshooting of electrical and instrumentation systems.</span></li>
+                                    <li><span> </span><span>Strong attention to detail and problem-solving skills.</span></li>
+                                    <li><span> </span><span>Ability to work collaboratively in a fast-paced environment.</span></li>
+                                    <li><span> </span><span>Excellent communication and interpersonal skills.</span></li>
+                                    <li><span> </span><span>Ability to work shifts as and when required.</span></li>
+                                </ul>
+                                
+                                <p><span>If you are a results-oriented individual with a strong control and instrumentation background and expertise in electrical works, we invite you to apply for the position of Electrical Technician at Barrs Pharmaceuticals. Please submit your resume and cover letter outlining your qualifications and relevant experience to <a rel="noopener noreferrer" href="mailto:hrsupport@barrs.co.za">hrsupport@barrs.co.za</a>. We look forward to hearing from you!&nbsp; If you have not heard from us within 2 weeks of the closing date, please consider your application unsuccessful.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="job-heading">
+                            Maintanance technician
+                        </h4>
+                        <p class="company">
+                            Kone
+                        </p>
+                        <p class="location">
+                            Cape Town, Western Cape
+                        </p>
+        
+                        <div class="accordion-header" id="headingTwo">
+                            <p class="job-type">
+                                Permanent
+                            </p>
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Read More
+                            </button>
+                        </div>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div data-automation-id="jobPostingDescription" class="css-d9wigi">
+                                <p>
+                                    KONE is looking for a qualified Maintenance Technician in <b>Cape Town</b><b><b>, </b>South Africa<span>.</span></b> Our team is composed of maintenance professionals who provide on-site customer service to ensure the smooth and safe operation of our equipment. We are now looking for a service-minded Maintenance Technician to provide professional elevator and escalator maintenance service to our customers.
+                                </p>
+                                <p> <a href="https://kone.wd3.myworkdayjobs.com/en-US/Careers/details/Maintenance-Technician_R0637113?Country=4db3c26940b944919b83612cc1193eed" target="_blank" rel="noopener noreferrer">APPLY HERE</a></p>
+                                <p>In this role, you will be at the core of KONE - an everyday hero who makes people's lives easier. You will work towards ensuring quality service, improving equipment safety and performance as well as promoting regular and proactive on-site communication to customers and the people using the equipment.<br>&nbsp;</p>
+                                <p>
+                                    <b><span><span><span><span style="word-break: break-word; word-wrap: break-word; display: inline; text-decoration: inherit; hyphens: auto; -webkit-hyphens:auto; -ms-hyphens: auto; -moz-hyphens: auto;">Responsibilities:&nbsp;</span></span></span></span></b>
+                                </p>
+                                <ul>
+                                    <li>Responsible for customer satisfaction through quality of service and regular, proactive, and precise on-site communication;</li><li>Responsible for accurate and real-time back reporting of work performed;</li><li>Maintain excellent relationships with the customers, the contact person, and end-users on site;</li><li>Manage the site environment during service operations;</li><li>Identification of site risks, and timely communication of any such occurrences;</li><li><span>Identifying “unplanned” service repairs based on the equipment needs, contacting the on-site contact person, getting his approval if not covered by the contract, and performing them;</span></li><li><span>Management of PAR stock levels (shelving, inventory, stock transfer) and timely issuance of replenishment orders;</span></li><li>Submit timesheets based on the execution.</li>
+                                </ul>
+                                <p></p>
+                                <p><b><span>Skills &amp; Experience:</span></b></p><ul><li><span>One or more of the following qualifications:</span></li><li><span>Red seal trade test certificate lift mechanic;</span></li><li><span>Completed NQF level 4 certification with apprenticeship program (minimum 4 years);</span></li><li><span>Completed <span><span><span style="word-break: break-word; word-wrap: break-word; display: inline; text-decoration: inherit; hyphens: auto; -webkit-hyphens:auto; -ms-hyphens: auto; -moz-hyphens: auto;">Electrical/Mechanical</span></span></span> Engineer Diploma/Degree with completion of at least 12 months shadowing a competent lift mechanic;</span></li><li><span>Completed NQF level 5 certification with completion of at least 12 months shadowing a competent lift mechanic;</span></li><li>Good communication skills with basic IT skills.</li></ul><p></p><p><b>Selected candidates will be sent an automated assessment via email, please make sure you check your spam folder when keeping a look out for this assessment.</b></p><p style="text-align:inherit"></p><p style="text-align:left"><i>At KONE, we are focused on creating an innovative and collaborative working culture where we value the contribution of each individual. Employee engagement is a key focus area for us and we encourage participation and the sharing of information and ideas. Sustainability is an integral part of our culture and the daily practice. We follow ethical business practices and we seek to develop a culture of working together where co-workers trust and respect each other and good performance is recognized. In being a great place to work, we are proud to offer a range of experiences and opportunities that will help you to achieve your career and personal goals and enable you to live a healthy and balanced life.</i></p><p style="text-align:inherit"></p><p style="text-align:left"><span>Read more on <a rel="noreferrer" target="_blank" href="https://emea01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.kone.com%2Fcareers&amp;data=02%7C01%7C%7C196fba7696d14cb6e18c08d5fed3bd46%7C2bb82c642eb143f78862fdc1d2333b50%7C0%7C0%7C636695107710197112&amp;sdata=mHjxju%2F%2F0Yjd1a9Qo2DoRF7lJdKQrHqujJmglVjPX9w%3D&amp;reserved=0"><i><i><i>www.kone.com/careers</i></i></i></a></span></p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="job-heading">
+                            House Keeper
+                        </h4>
+                        <p class="company">
+                            Faircape
+                        </p>
+                        <p class="location">
+                            Somerset West, Western Cape
+                        </p>
+                        <div class="accordion-header" id="headingThree">
+                            <p class="job-type">
+                                Permanent
+                            </p>
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Read More
+                            </button>
+                        </div>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="vacancy-description">
+                                <p><strong>The Faircape Group</strong>&nbsp;operates 6 high end retirement/lifestyle villages in the Western Cape.</p>
+                                <p>We are seeking a&nbsp;<strong>Housekeeper</strong>&nbsp;at our facility <strong>Heritage Manor&nbsp;</strong>in the<strong> Somerset West&nbsp;</strong>to carry out various cleaning duties and to ensure our facility is in an orderly condition.&nbsp;<br><br><em><strong>(Preferably candidates from the surrounding areas - Strand, Somerset West, Gordons Bay, Grabouw etc will be considered)</strong></em><br><br><strong>Job duties include, but is not limited to the following:</strong></p>
+                                <a href="https://faircapelife.simplify.hr/Vacancy/86742" target="_blank" rel="noopener noreferrer">APPLY HERE</a>
+                                <ul>
+                                    <li>Ensure that a high standard of cleanliness is maintained throughout all areas of the facility</li><li>Clean designated facility areas (dusting, sweeping, vacuuming, mopping, cleaning ceiling vents, restroom cleaning etc)</li><li>Perform and document routine inspection activities</li><li>Carry out heavy cleansing tasks and special projects upon request</li><li>Ensure all walkways remain clear and free of debris</li><li>Notify management of any repairs required</li><li>Mix and dispose of all cleaning solutions appropriately</li><li>Follow all health and safety regulations</li>
+                                </ul>
+                                <p><strong>Experience and knowledge:</strong></p>
+                                <ul>
+                                    <li>3 years cleaning experience preferable</li><li>Excellent working knowledge of cleaning appliances and their operations</li><li>Knowledge regarding the proper use of cleaning/chemical agents</li><li>Attention to detail and good communication skills</li><li>We will require a written reference in order to proceed with your application</li>
+                                </ul>
+                                <p><strong>Specific Requirements</strong></p>
+                                <ul>
+                                    <li style="font-weight: 400"><span style="font-weight: 400">No criminal record</span></li><li style="font-weight: 400"><span style="font-weight: 400">Solid and positive references</span></li><li style="font-weight: 400"><span style="font-weight: 400">Clear health record</span></li><li style="font-weight: 400"><span style="font-weight: 400">Clear credit record</span></li><li style="font-weight: 400"><span style="font-weight: 400">Vaccinated against covid-19 or prepared to be vaccinated prior to commencing job</span></li>
+                                </ul>
+                                <p><br>Salary on offer from R5 000 Cost to Company per month.&nbsp;</p>
+                                <br><strong>Working Hours: </strong><span style="font-weight: 400">Normal working days are Mondays to Sundays, according to the roster. You will be required to work 16.25 shifts per month. Shifts are from 07h00 until 19h00.</span><br><br>
+                                <p><em>Should you not receive a response within 2 weeks of applying, please consider your application unsuccessful.</em></p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                   
+
                 </div>
-              </div>
+
+                <div class="row">
+
+                </div>
+
             </div>
+           
+
+
+
         </div>
 
 
@@ -185,9 +436,29 @@
 
 
     </main>
+    <footer class=" container-fluid bg-dark">
+        <div class="home row ">
+            <div class="col">
+                <a href="./index.html">
+                    <img src="./images/images.jpeg" alt="logo" class="footer-image">
+                </a>
+               
+            </div>
+
+            <div class=" col contacts">
+                <a href="./index.html">Home</a>
+                <a href="#">Contact Us</a>
+            </div>
+           
+        </div>
+        
+        
 
 
-    <script src="./home.js"></script>
+    </footer>
+
+
+    <script src="./javascript/home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
